@@ -1,0 +1,31 @@
+// this is the structure of a function
+// function this is the name(signature){
+// Body
+// }
+
+  function sum(a, b) {
+    console.log(a + b);
+  }
+  sum(5, 5);
+
+  function diff(a, b) {
+    console.log(a - b);
+  }
+  diff(5, 5);
+
+  function mult(a, b) {
+    console.log(a * b);
+  }
+  mult(5, 5);
+
+  function div(a, b) {
+    console.log(a / b);
+  }
+  div(5, 5);
+
+  function getName(name){
+    console.log("Hello " + name);
+
+  }
+
+  getName("Cam")
